@@ -47,4 +47,3 @@ export const Button = styled.button`
     background-color: #005f99;
   }
 `;
-

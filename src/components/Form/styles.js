@@ -29,12 +29,12 @@ export const Input = styled.input`
   border-radius: 5px;
   padding: 8px 10px; /* Aumentando o padding para dar uma altura consistente */
   font-size: 15px;
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   transition: border 0.3s ease;
   height: 12px; /* Definindo a altura consistente para todos os inputs */
 
   &:focus {
-    border: 1px solid #4A90E2;
+    border: 2px solid #4A90E2;
   }
 `;
 
