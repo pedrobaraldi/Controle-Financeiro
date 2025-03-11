@@ -23,3 +23,28 @@ export const Th = styled.th`
   text-align: ${(props) => (props.alignCenter ? "center" : "start")};
   width: ${(props) => (props.width ? props.width + "%" : "auto")};
 `;
+export const ButtonContainer = styled.div`
+  max-width: 1120px;
+  margin: 20px auto;
+  width: 98%;
+  display: flex;
+  justify-content: end;
+  gap: 15px;
+`;
+
+export const Button = styled.button`
+  padding: 12px 12px;
+  margin: 5px ;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #007ACC;
+  color: white;
+  font-weight: bold;
+  transition: 0.3s ease;
+
+  &:hover {
+    background-color: #005f99;
+  }
+`;
+
